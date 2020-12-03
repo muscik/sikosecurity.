@@ -32,7 +32,7 @@ var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
 const prefix = "s/";
-client.login("NzgzMzYzODc3Njg5MjI5MzEz.X8Zqdg.lokD4qrydoRVBHjHQH_x_HYCjro");
+client.login("NzgzMzYzODc3Njg5MjI5MzEz.X8Zqdg.jyYNByJURi1pu5nxWsBwdwtCOm8");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -44,7 +44,6 @@ client.on("ready", async () => {
   });
 });
 //////
-
 client.on("message", async message => {
   if (message.content.startsWith(prefix + "help")) {
     let help = new Discord.MessageEmbed()
